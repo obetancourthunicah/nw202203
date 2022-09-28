@@ -42,4 +42,11 @@
 
         $_SESSION["arrReservas"] = $arrReservas;
     }
+    function obtenerLista(){
+        $arrReservas = array();
+        if (isset($_SESSION["arrReservas"])) {
+            $arrReservas = $_SESSION["arrReservas"];
+        }
+        return $arrReservas;
+    }
 ?>
