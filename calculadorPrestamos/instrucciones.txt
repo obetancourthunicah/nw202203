@@ -1,0 +1,19 @@
+Préstamo
+  nombreCliente
+  tasaInterés
+  cuotas
+  periodo años
+  periodo meses
+  capital prestado
+
+CuotaAmortizada
+  numeroCuota
+  capitalAmortizado
+  interés
+  capitalPendiente
+  cuota
+
+
+  Formulario de entrada
+  Tabla de Cuotas Amortizadas
+  Como calcular una cuota nivelada de amortización
